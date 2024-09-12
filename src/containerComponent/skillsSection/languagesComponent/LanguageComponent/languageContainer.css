@@ -1,0 +1,23 @@
+.languageContainer {
+    min-height: 3.3rem;
+    min-width: 3.6rem;
+
+    background: #141c34a1;
+    border-radius: 16px;
+    backdrop-filter: blur(14.8px);
+    -webkit-backdrop-filter: blur(14.8px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.325rem;
+
+    box-shadow: rgba(246, 248, 255, 0.10) 1.95px 1.95px 2.6px;
+}
+
+.language {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #f6f8ff;
+}

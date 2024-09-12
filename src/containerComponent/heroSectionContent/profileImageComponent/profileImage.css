@@ -1,0 +1,18 @@
+#profileImageContainer {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    /* margin-top: 0.5rem; */
+}
+
+#profilePicture {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: #59B9B4 0px 25px 15px -25px;
+    /* box-shadow: #59B9B4 0px 2px 4px 0px, #59B9B4 0px 2px 16px 0px; */
+    /* box-shadow: #59b9b481 0px 0px 0.25em, #59b9b481 0px 0.25em 1em; */
+    /* box-shadow: #59b9b4cf 0px 2px 8px 0px; */
+    /* box-shadow: #f8f9ff5b 0px 10px 20px, #59b9b480 0px 6px 6px; */
+
+}

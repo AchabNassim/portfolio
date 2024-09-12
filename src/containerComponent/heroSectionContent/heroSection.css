@@ -1,0 +1,45 @@
+#heroSectionContainer {
+    margin-top: 2rem;
+    
+    font-size: 1.3rem;
+    color: rgba(248, 249, 255, 0.80);
+
+    animation: fade 0.8s ease-in-out;
+    transition: ease-in-out 2s fade;
+}
+
+#greetText {
+    margin-top: 3rem;
+}
+
+#introductiontext {
+    margin-top: 0.4rem;
+    color: rgb(248, 249, 255);
+
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+}
+
+#myName {
+    font-weight: medium;
+    color: rgb(248, 249, 255);
+}
+
+
+#cityName, .technologyName {
+    color: #488DFF;
+}
+
+#countryName {
+    color: #59B9B4;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

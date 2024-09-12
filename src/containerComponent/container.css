@@ -1,0 +1,27 @@
+#appContainer {
+    height: 90vh;
+    width: 75vw;
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+
+    background: rgba(20, 28, 52, 0.201);
+    backdrop-filter: blur( 15px );
+    -webkit-backdrop-filter: blur( 40px );
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar { 
+    display: none;
+}
+
+#miniContainer {
+    min-height: 70vh;
+    width: 56vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+}

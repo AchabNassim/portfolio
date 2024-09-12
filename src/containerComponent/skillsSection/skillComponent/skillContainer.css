@@ -1,0 +1,29 @@
+#skillContainer {
+    min-height: 3.3rem;
+    min-width: 4rem;
+
+    background: #141c34a1;
+    border-radius: 16px;
+    backdrop-filter: blur(14.8px);
+    -webkit-backdrop-filter: blur(14.8px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.325rem;
+    box-shadow: rgba(246, 248, 255, 0.10) 1.95px 1.95px 2.6px;
+    /* box-shadow: #59b9b41b 0px 5px 15px; */
+}
+
+.skillImage {
+    height: 1.4rem;
+    width: 1.4rem;
+}
+
+.skillName {
+    margin-top: 0.5rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    color: rgba(246, 248, 255, 0.9);
+}

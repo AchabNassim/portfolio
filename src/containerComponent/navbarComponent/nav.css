@@ -1,0 +1,45 @@
+#navContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    margin-top: 3rem;
+}
+
+
+#navbarList {
+    display: flex;
+}
+
+#navbarList li {
+    list-style-type: none;
+    margin: 0 1.2rem;
+}
+
+#navbarList li a {
+    color: #F8F9FF;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+#navbarList li a:hover {
+    text-decoration: underline;
+    text-decoration-color: #59B9B4;
+    text-underline-offset: 0.5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    #navContainer {
+        padding-right: 2rem;
+        margin-top: 1.5rem;
+    }
+    #navbarList li a {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #navbarList li a {
+        display: none;
+    }
+}

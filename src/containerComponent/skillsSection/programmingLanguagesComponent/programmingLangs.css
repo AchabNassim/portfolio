@@ -1,0 +1,15 @@
+#programmingLangContainer {
+    margin-top: 0.8rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    width: 45%;
+}
+
+@media only screen and (max-width: 1000px) {
+    #programmingLangContainer {
+      width: 80%;
+    }
+  }

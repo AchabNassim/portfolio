@@ -1,0 +1,18 @@
+#socialsContainer {
+    margin-top: 0.6rem;
+    display: flex;
+}
+
+.socialContainer , a , svg {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-right: 0.35rem;
+}
+
+#linkedinSvg path, #githubSvg path, #emailSvg path {
+    fill: rgba(246, 248, 255, 0.80);
+}
+
+#linkedinSvg:hover path, #githubSvg:hover path, #emailSvg:hover path {
+    fill: #F8F9FF;
+}

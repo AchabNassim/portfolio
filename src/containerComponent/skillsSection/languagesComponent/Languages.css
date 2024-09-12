@@ -1,0 +1,7 @@
+#languagesContainer {
+    margin-top: 0.8rem;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+}
