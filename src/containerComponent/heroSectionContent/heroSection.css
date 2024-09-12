@@ -4,8 +4,8 @@
     font-size: 1.3rem;
     color: rgba(248, 249, 255, 0.80);
 
-    animation: fade 0.8s ease-in-out;
-    transition: ease-in-out 2s fade;
+    animation: fade 1s ease-in;
+    transition: ease-in-out 1s fade;
 }
 
 #greetText {
@@ -38,6 +38,7 @@
 @keyframes fade {
     from {
         opacity: 0;
+        /* transform: translateY(100px); */
     }
     to {
         opacity: 1;
