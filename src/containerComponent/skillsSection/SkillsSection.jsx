@@ -4,16 +4,18 @@ import Skill from "./skillComponent/SkillContainer.jsx";
 import Techstack from "./techstackComponent/Techstack.jsx";
 import ProgrammingLangs from "./programmingLanguagesComponent/ProgrammingLangs.jsx"
 import Languages from "./languagesComponent/Languages.jsx";
+import ComputerSvgContainer from "./computerSvgComponent/ComputerSvgContainer.jsx";
 
 const SkillsSection = () => {
     return (
         <div id="skillsSectionContainer">
-            <p className="paragHeader">Techstack</p>
-            <Techstack />
-            <p className="paragHeader">Languages - Frameworks - Databases</p>
-            <ProgrammingLangs />
-            <p className="paragHeader">Spoken languages</p>
-            <Languages />
+            <div id="skillsContainer">
+                <p className="paragHeader">Techstack</p>
+                <Techstack />
+                <p className="paragHeader">Languages - Frameworks - Databases</p>
+                <ProgrammingLangs />
+            </div>
+            <ComputerSvgContainer />
         </div>
     )
 }

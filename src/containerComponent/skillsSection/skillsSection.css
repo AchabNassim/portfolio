@@ -1,5 +1,5 @@
 #skillsSectionContainer {
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 
     font-size: 1.3rem;
     font-weight: bold;
@@ -8,10 +8,16 @@
 
     animation: fade 1s ease-in-out;
     transition: ease-in-out 1s fade;
+    display: flex;
+}
+
+#skillsContainer {
+    width: 70%;
 }
 
 .paragHeader {
-    margin-top: 1rem;
+    width: 60%;
+    margin-top: 2.5rem;
     margin-bottom: 0.4rem;
-    color: #488DFF;
+    color: #59B9B4;
 }

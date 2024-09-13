@@ -1,0 +1,67 @@
+#computerSvgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#computerSvg {
+    height: 19rem;
+    width: 19rem;
+}
+
+#computerSvg {
+    animation: moveComputer 4s ease-in-out infinite;
+}
+
+#computerSvgScreen {
+    animation: changeColor 8s ease-in-out infinite;
+}
+
+#computerSvgMouse {
+    animation: moveMouse 4s ease-in-out infinite;
+}
+
+@keyframes moveComputer {
+    0% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(1.2rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes moveMouse {
+    0% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(0.3rem);
+    }
+    100% {
+        transform: translateY(0rem);
+    }
+}
+
+@keyframes changeColor {
+    0% {
+        /* opacity: 1; */
+        fill: #488dff;
+    }
+    33% {
+        /* opacity: 0.33; */
+        fill: #59B9B4;
+    }
+    66% {
+        /* opacity: 0.66; */
+        fill: #F8F9FF;
+    }
+    100% {
+        opacity: 1;
+        fill: #488dff;
+    }
+}
+
