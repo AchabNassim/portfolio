@@ -10,8 +10,8 @@ function Container() {
     <div id='appContainer'>
       <Nav />
       <div id='miniContainer'>
-        {/* <HeroSection /> */}
-        <SkillsSection />
+        <HeroSection />
+        {/* <SkillsSection /> */}
       </div>
     </div>
   )
