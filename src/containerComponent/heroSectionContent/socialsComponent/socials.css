@@ -4,13 +4,13 @@
 }
 
 .socialContainer , a , svg {
-    height: 1.3rem;
-    width: 1.3rem;
+    height: 1.45rem;
+    width: 1.45rem;
     margin-right: 0.35rem;
 }
 
 #linkedinSvg path, #githubSvg path, #emailSvg path {
-    fill: rgba(246, 248, 255, 0.80);
+    fill: rgba(246, 248, 255, 0.70);
 }
 
 #linkedinSvg:hover path, #githubSvg:hover path, #emailSvg:hover path {

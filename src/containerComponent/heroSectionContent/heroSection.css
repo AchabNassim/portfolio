@@ -1,4 +1,5 @@
 #heroSectionContainer {
+    min-height: 100%;
     /* margin-top: 2rem; */
     
     font-size: 1.3rem;
@@ -14,7 +15,7 @@
 
 #introductiontext {
     margin-top: 0.6rem;
-    color: rgb(248, 249, 255);
+    color: #f8f9ff;
 
     font-weight: 500;
     font-size: 1.7rem;

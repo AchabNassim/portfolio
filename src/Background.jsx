@@ -42,7 +42,7 @@ function Background() {
         radialGradient: "(90% 90% at 50% 0%, #000212 50%, #00a1ad 100%)"
       }}>
         <Canvas>
-          <Stars radius={50} count={4000} factor={3.5} fade speed={2} />
+          <Stars radius={50} count={4000} factor={3.5} fade speed={2.5} />
         </Canvas>
       </div>
       </motion.section>

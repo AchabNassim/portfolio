@@ -1,0 +1,36 @@
+#projectNameContainer * {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+#projectNameContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#projectName {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#clickSvg {
+    height: 1rem;
+    width: 1rem;
+}
+
+#clickSvg path {
+    fill: rgba(248, 249, 255, 0.80);
+}
+
+#clickSvg path:hover {
+    fill: rgba(248, 249, 255, 1);
+}
+
+a {
+    text-decoration: none;
+    color: #f8f9ff;
+    width: 100%;
+}

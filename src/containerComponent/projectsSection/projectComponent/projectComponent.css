@@ -1,0 +1,59 @@
+.projectContainer {
+    display: flex;
+    justify-content: space-between;
+
+    background: rgba(20, 28, 52, 0.35);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: rgba(89, 185, 180, 0.10) 1px 1px 4px;
+    
+    border-radius: 4px;
+
+    min-height: 11rem;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 0.6rem;
+}
+
+.projectContainer:first-child {
+    margin-top: 3rem;
+}
+
+#projectInfoContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 0.8rem;
+}
+
+#projectDescription {
+    color: rgba(248, 249, 255, 0.8);
+
+    font-size: 1rem;
+    font-weight: 400;
+    width: 90%;
+    line-height: 1.5rem;
+}
+
+#technologiesList {
+    margin: 0.8rem 0 1.5rem;
+    display: flex;
+}
+
+.technologiesLi {
+    list-style: none;
+
+    margin-right: 0.6rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #59B9B4;
+}
+
+#projectShowcaseContainer {
+    width: 26%;
+    box-sizing: border-box;
+}
+
+

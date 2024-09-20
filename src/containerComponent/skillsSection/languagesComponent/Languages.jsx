@@ -1,13 +1,14 @@
 import React from "react";
 import './Languages.css'
-import Language from "./LanguageComponent/LanguageContainer.jsx";
+import SkillContainer from "../skillComponent/SkillContainer.jsx";
 
 const Languages = () => {
     return (
         <div id="languagesContainer"> 
-            <Language language={"English"} />
-            <Language language={"French"} />
-            <Language language={"Arabic"} />
+            <SkillContainer skillName={"English"} />
+            <SkillContainer skillName={"French"} />
+            <SkillContainer skillName={"Arabic"} />
+            <SkillContainer skillName={"Spanish"} />
         </div>
     )
 }

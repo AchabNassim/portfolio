@@ -1,4 +1,5 @@
 #skillsSectionContainer {
+    height: 100%;
     /* margin-top: 2rem; */
 
     font-size: 1.3rem;
@@ -17,7 +18,7 @@
 
 .paragHeader {
     width: 60%;
-    margin-top: 2.5rem;
+    margin-top: 1.8rem;
     margin-bottom: 0.4rem;
     color: #59B9B4;
 }
