@@ -1,0 +1,19 @@
+@media only screen and (max-width: 800px) {
+    #introductiontext {
+        margin-top: 0.4rem;
+        font-size: 1.4rem;
+        line-height: 1.75rem;
+    }
+    #profileImageContainer {
+        margin: 0 auto;
+    }
+
+    #profileImageContainer , #profilePicture {
+        height: 200px;
+        width: 200px;
+    }
+    #heroSectionContainer {
+        animation: none !important;
+        transition: none !important;
+    }
+}

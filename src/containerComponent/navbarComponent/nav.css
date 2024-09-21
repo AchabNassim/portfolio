@@ -13,19 +13,28 @@
 
 #navbarList li {
     list-style-type: none;
-    margin: 0 1.2rem;
+    margin: 0 0.9rem;
 }
 
 #navbarList li a {
     color: #F8F9FF;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 #navbarList li a:hover {
     text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
     text-decoration-color: #59B9B4;
     text-underline-offset: 0.5rem;
+}
+
+.selectedNav {
+    /* color: #59B9B4 !important; */
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.125rem !important;
+    text-decoration-color: #59B9B4 !important;
+    text-underline-offset: 0.5rem !important;
 }
 
 @media only screen and (max-width: 1000px) {

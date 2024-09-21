@@ -10,6 +10,7 @@
     animation: appear 1s ease-in-out;
     transition: ease-in-out 1s appear;
     display: flex;
+    margin-bottom: 0.5rem;
 }
 
 #skillsContainer {

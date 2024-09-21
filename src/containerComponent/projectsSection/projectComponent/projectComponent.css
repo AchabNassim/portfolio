@@ -52,7 +52,8 @@
 }
 
 #projectShowcaseContainer {
-    width: 26%;
+    /* height: 100%; */
+    width: 25%;
     box-sizing: border-box;
 }
 

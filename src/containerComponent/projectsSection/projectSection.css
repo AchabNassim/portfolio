@@ -7,11 +7,13 @@
 
     animation: appear 1s ease-in-out;
     transition: ease-in-out 1s appear;
+    margin-bottom: 0.5rem;
 }
 
 #projectHeader {
     font-size: 1.3rem;
     font-weight: bold;
-    color: #488DFF;
+    color: #59B9B4;
     margin: 1.8rem 0;
+    letter-spacing: 0.1rem;
 }

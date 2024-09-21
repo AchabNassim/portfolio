@@ -1,5 +1,6 @@
 import React from "react";
 import './skillsSection.css';
+import './mobileSkillsSection.css';
 import Techstack from "./techstackComponent/Techstack.jsx";
 import ProgrammingLangs from "./programmingLanguagesComponent/ProgrammingLangs.jsx"
 import Languages from "./languagesComponent/Languages.jsx";
