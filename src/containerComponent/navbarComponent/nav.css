@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-end;
     padding-right: 5rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 
 
@@ -27,6 +27,7 @@
     text-decoration-thickness: 0.15rem;
     text-decoration-color: #59B9B4;
     text-underline-offset: 0.5rem;
+    color: rgba(248, 249, 255, 0.90);
 }
 
 .selectedNav {

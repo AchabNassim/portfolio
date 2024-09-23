@@ -3,7 +3,9 @@
     width: 65vw;
     overflow-y: scroll;
     scrollbar-width: none;
-
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 
     background: rgba(20, 28, 52, 0.201);
     backdrop-filter: blur( 15px );
