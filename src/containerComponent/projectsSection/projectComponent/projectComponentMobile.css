@@ -1,0 +1,48 @@
+@media only screen and (max-width: 800px) {
+    .projectContainer {
+        font-size: 1rem !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #projectInfoContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 0.8rem;
+    }
+
+    #projectDescription {    
+        font-size: 0.95rem;
+        font-weight: 400;
+        width: 100%;
+        line-height: 1.4rem;
+    }
+
+    #technologiesList {
+        font-weight: 0.9rem;
+        margin: 0.8rem 0 0.8rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .technologiesLi {
+        list-style: none;
+    
+        margin-right: 0.6rem;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #59B9B4;
+    }
+
+    #projectShowcaseContainer {
+        height: 21vh;
+        width: 100%;
+        margin: 0.8rem auto;
+    }
+
+    /* .projectVideo {
+        object-fit: fill;
+    } */
+}

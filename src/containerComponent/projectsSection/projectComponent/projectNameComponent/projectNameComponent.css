@@ -6,6 +6,7 @@
 #projectNameContainer {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: flex-end;
     width: 100%;
     margin-top: 1rem;

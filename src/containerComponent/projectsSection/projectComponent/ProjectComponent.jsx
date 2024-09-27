@@ -1,5 +1,6 @@
 import React from "react";
 import './projectComponent.css'
+import './projectComponentMobile.css'
 import ProjectName from "./projectNameComponent/ProjectNameComponent.jsx";
 import VideoComponent from "./videoComponent/VideoComponent.jsx";
 
