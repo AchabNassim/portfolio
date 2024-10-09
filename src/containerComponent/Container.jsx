@@ -5,7 +5,7 @@ import HeroSection from './heroSectionContent/HeroSection.jsx';
 import SkillsSection from './skillsSection/SkillsSection.jsx';
 import ProjectSection from './projectsSection/ProjectSection.jsx'
 
-const minimumWidth = 800;
+const minimumWidth = 1000;
 
 function Container() {
   const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth ? "heroSection" : "all");

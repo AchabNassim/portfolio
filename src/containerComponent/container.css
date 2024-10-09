@@ -31,7 +31,7 @@
     margin: 4rem auto;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
     body {
         min-height: 100%;
     }
@@ -57,7 +57,7 @@
         min-height: auto;
     }
 
-    /* #projectSectionContainer {
+    #projectSectionContainer {
         padding-bottom: 10rem;
-    } */
+    }
 }

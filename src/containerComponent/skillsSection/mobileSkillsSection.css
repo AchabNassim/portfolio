@@ -1,3 +1,25 @@
+@media only screen and (max-width: 1000px) {
+    #skillsContainer {
+        width: 100% !important;
+    }
+    #teckstackContainer {
+        width: 100% !important;
+    }
+    #programmingLangContainer {
+        width: 60% !important;
+    }
+    #skillsSectionContainer {
+        animation: none !important;
+        transition: none !important;
+    }
+    .paragHeader {
+        width: 100%;
+        margin-top: 1.8rem;
+        margin-bottom: 0.4rem;
+        color: #59B9B4;
+    }
+}
+
 @media only screen and (max-width: 800px) {
     #skillsContainer {
         width: 100% !important;
