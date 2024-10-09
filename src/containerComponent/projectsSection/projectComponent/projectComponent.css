@@ -10,10 +10,10 @@
     
     border-radius: 4px;
 
-    min-height: 11rem;
+    height: auto;
     width: 98%;
-    margin: 0 auto;
-    margin-top: 0.6rem;
+    margin: 0.4rem auto;
+    /* margin-top: 0.6rem; */
 }
 
 .projectContainer:first-child {
@@ -35,7 +35,7 @@
     font-weight: 400;
     width: 90%;
     line-height: 1.5rem;
-    padding-bottom: 0.1rem;
+    margin-bottom: 1rem;
 }
 
 #technologiesList {

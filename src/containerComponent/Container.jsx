@@ -34,9 +34,9 @@ function Container() {
   return (
     <div id='appContainer'>
       <Nav section={selectedSection} setSection={setSelectedSection} />
-      <div id='miniContainer'>
         {section}
-      </div>
+      {/* <div id='miniContainer'>
+      </div> */}
     </div>
   )
 }

@@ -19,7 +19,7 @@ function Background() {
           ]
         }}
         transition={{
-          duration: 14,
+          duration: 8,
           ease: "easeInOut",
           repeat: Infinity,
           repeatType: "mirror"

@@ -1,6 +1,6 @@
 #appContainer {
-    height: 90vh;
-    width: 65vw;
+    height: 94vh;
+    width: 70vw;
     overflow-y: scroll;
     scrollbar-width: none;
     /* display: flex;
@@ -17,13 +17,18 @@
     display: none;
 }
 
-#miniContainer {
+/* #miniContainer {
     min-height: 70vh;
     width: 56vw;
     margin: 1rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+} */
+
+#heroSectionContainer , #projectSectionContainer , #skillsSectionContainer {
+    width: 80%;
+    margin: 4rem auto;
 }
 
 @media only screen and (max-width: 800px) {
@@ -33,14 +38,14 @@
     #appContainer {
         min-height: 90vh;
         width: 90vw;
-        padding-bottom: 12rem;
+        /* padding-bottom: 12rem; */
     }
 
-    #miniContainer {
+    /* #miniContainer {
         min-height: 70vh;
         width: 82vw;
         margin: 1rem auto;
-    }
+    } */
 
     #heroSectionContainer , #projectSectionContainer , #skillsSectionContainer {
         display: flex;
@@ -49,6 +54,7 @@
         font-size: 1.2rem;
         width: 95%;
         margin: 0 auto;
+        min-height: auto;
     }
 
     /* #projectSectionContainer {
