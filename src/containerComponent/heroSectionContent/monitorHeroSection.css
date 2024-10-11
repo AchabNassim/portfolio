@@ -1,0 +1,30 @@
+@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+    #greetText {
+        margin: 5rem 0 1.4rem;
+        font-size: 3rem ;
+        line-height: 2.6rem;
+    }
+
+    #introductiontext {
+        margin: 1rem 0;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        font-weight: 450 !important;
+        width: 96%;
+    }
+
+    #profileImageContainer , #profilePicture {
+        height: 260px;
+        width: 260px;
+    }
+    #heroSectionContainer {
+        animation: none !important;
+        transition: none !important;
+    }
+
+    .socialContainer , a , svg {
+        height: 2rem;
+        width: 2rem;
+        margin-right: 0.35rem;
+    }
+}

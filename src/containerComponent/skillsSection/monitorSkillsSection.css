@@ -1,0 +1,54 @@
+@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+    #skillsSectionContainer {
+    
+        font-size: 2rem;
+    }
+    
+    #skillsContainer {
+        width: 50% !important;
+    }
+    
+    .paragHeader {
+        width: 50% !important;
+        margin-bottom: 1.8rem !important;
+        color: #59B9B4;
+    }
+
+    #skillsContainer {
+        width: 100% !important;
+    }
+    #teckstackContainer {
+        width: 100% !important;
+    }
+    #programmingLangContainer {
+        width: 60% !important;
+    }
+    #skillsSectionContainer {
+        animation: none !important;
+        transition: none !important;
+    }
+    .paragHeader {
+        width: 100%;
+        margin-top: 1.8rem;
+        margin-bottom: 0.4rem;
+        color: #59B9B4;
+    }
+    #computerSvgContainer {
+        width: 30%;
+    }
+    #computerSvg {
+        height: 30rem !important;
+        width: 30rem !important;
+    }
+
+    #skillContainer {
+        min-height: 4rem !important;
+        min-width: 8rem !important;
+    }
+
+    .skillName {
+        font-size: 1.4rem !important;
+        font-weight: 500;
+        color: #F8F9FF;
+    }
+}

@@ -1,0 +1,38 @@
+@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+    .projectContainer {
+        font-size: 1.2rem !important;
+    }
+
+    #projectHeader {
+        font-size: 1.8rem;
+    }
+
+    #projectName {
+        font-size: 1.8rem !important;
+    }
+
+    #projectDescription {    
+        font-size: 1.3rem !important;
+        font-weight: 400;
+        width: 100%;
+        line-height: 1.8rem;
+    }
+    
+    .technologiesLi {
+        list-style: none;
+    
+        margin-right: 0.8rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        color: #59B9B4;
+    }
+
+    #projectShowcaseContainer {
+        height: 24vh;
+        width: 80%;
+        margin: 0.8rem auto;
+    }
+    .projectVideo {
+        object-fit: fill;
+    }
+}

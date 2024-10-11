@@ -6,9 +6,10 @@ import SkillsSection from './skillsSection/SkillsSection.jsx';
 import ProjectSection from './projectsSection/ProjectSection.jsx'
 
 const minimumWidth = 1000;
+const maxWidth = 2000;
 
 function Container() {
-  const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth ? "heroSection" : "all");
+  const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth && window.innerWidth < maxWidth ? "heroSection" : "all");
   let section;
 
   switch (selectedSection) {
@@ -35,8 +36,6 @@ function Container() {
     <div id='appContainer'>
       <Nav section={selectedSection} setSection={setSelectedSection} />
         {section}
-      {/* <div id='miniContainer'>
-      </div> */}
     </div>
   )
 }

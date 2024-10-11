@@ -3,7 +3,7 @@
     /* margin-top: 2rem; */
     
     font-size: 1.3rem;
-    color: rgba(248, 249, 255, 0.80);
+    color: #f8f9ff;
 
     animation: appear 1s ease-in-out;
     transition: ease-in-out 1s appear;
@@ -16,7 +16,8 @@
 
 #introductiontext {
     margin-top: 0.6rem;
-    color: #f8f9ff;
+    color: rgba(248, 249, 255, 0.98);
+
 
     font-weight: 500;
     font-size: 1.7rem;

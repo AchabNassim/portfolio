@@ -42,10 +42,4 @@
         width: 100%;
         margin: 0.8rem auto;
     }
-    .projectContainer:last-child {
-        margin-bottom: 11rem;
-    }
-    .projectVideo {
-        object-fit: fill;
-    }
 }

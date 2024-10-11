@@ -17,15 +17,6 @@
     display: none;
 }
 
-/* #miniContainer {
-    min-height: 70vh;
-    width: 56vw;
-    margin: 1rem auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-} */
-
 #heroSectionContainer , #projectSectionContainer , #skillsSectionContainer {
     width: 80%;
     margin: 4rem auto;
@@ -59,5 +50,27 @@
 
     #projectSectionContainer {
         padding-bottom: 10rem;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+    body {
+        min-height: 100%;
+    }
+    #appContainer {
+        min-height: 70vh;
+        width: 70vw;
+    }
+
+
+    #heroSectionContainer , #projectSectionContainer , #skillsSectionContainer {
+        font-size: 1.4rem;
+        width: 80%;
+        min-height: auto;
+        animation: none !important;
+    }
+
+    #projectSectionContainer , #skillsSectionContainer {
+        margin-top: 7rem;
     }
 }

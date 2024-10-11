@@ -5,6 +5,7 @@ import ProfileImage from "./profileImageComponent/ProfileImage.jsx";
 import Socials from "./socialsComponent/Socials.jsx";
 import './heroSection.css';
 import './mobileHeroSection.css';
+import './monitorHeroSection.css';
 
 
 const HeroSection = () => {
