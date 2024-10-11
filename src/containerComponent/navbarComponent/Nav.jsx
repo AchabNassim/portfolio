@@ -18,13 +18,13 @@ const Nav = ({section, setSection}) => {
             <div id="navContainer">
                 <ul id="navbarList">
                     <li onClick={() => handleOnClick("heroSection")} >
-                        <a href="#heroSectionContainer" className={section === "heroSection" ? "selectedNav" : "unselectedHeroNav"}>Home</a>
+                        <a href={window.innerWidth < minimumWidth && window.innerWidth > maxWidth ? "heroSectionContainer" : "#"} className={section === "heroSection" ? "selectedNav" : "unselectedHeroNav"}>Home</a>
                     </li>
                     <li onClick={() => handleOnClick("skillsSection")} >
-                        <a href="#skillsSectionContainer" className={section === "skillsSection" ? "selectedNav" : "unselectedSkillsNav"}>Skills</a>
+                        <a href={window.innerWidth < minimumWidth && window.innerWidth > maxWidth ? "skillsSectionContainer" : "#"} className={section === "skillsSection" ? "selectedNav" : "unselectedSkillsNav"}>Skills</a>
                     </li>
                     <li onClick={() => handleOnClick("projectsSection")} >
-                        <a href="#projectSectionContainer" className={section === "projectsSection" ? "selectedNav" : "unselectedProjectsNav"}>Projects</a>
+                        <a href={window.innerWidth < minimumWidth && window.innerWidth > maxWidth ? "projectsSectionContainer" : "#"} className={section === "projectsSection" ? "selectedNav" : "unselectedProjectsNav"}>Projects</a>
                     </li>
                 </ul>
             </div>
