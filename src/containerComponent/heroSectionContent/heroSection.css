@@ -26,7 +26,9 @@
 }
 
 #myName {
-    font-weight: medium;
+    font-weight: 600;
+    /* font-style: oblique; */
+    letter-spacing: 0.025rem;
     color: rgb(248, 249, 255);
 }
 
