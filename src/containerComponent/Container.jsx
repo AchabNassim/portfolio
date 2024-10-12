@@ -6,7 +6,7 @@ import SkillsSection from './skillsSection/SkillsSection.jsx';
 import ProjectSection from './projectsSection/ProjectSection.jsx'
 
 const minimumWidth = 1000;
-const maxWidth = 2000;
+const maxWidth = 1800;
 
 function Container() {
   const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth && window.innerWidth < maxWidth ? "heroSection" : "all");

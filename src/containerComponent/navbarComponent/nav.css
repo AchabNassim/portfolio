@@ -54,7 +54,7 @@
     }
 }
 
-@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+@media only screen and (min-width: 1800px) and (min-height: 1000px) {
     #navContainer {
         margin-top: 3rem;
     }

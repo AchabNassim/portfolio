@@ -1,11 +1,7 @@
-@media only screen and (min-width: 2000px) and (min-height: 1000px) {
+@media only screen and (min-width: 1800px) and (min-height: 1000px) {
     #skillsSectionContainer {
     
         font-size: 2rem;
-    }
-    
-    #skillsContainer {
-        width: 50% !important;
     }
     
     .paragHeader {
@@ -14,11 +10,14 @@
         color: #59B9B4;
     }
 
-    #skillsContainer {
-        width: 100% !important;
-    }
+    /* #skillsContainer {
+        width: 60% !important;
+    } */
     #teckstackContainer {
-        width: 100% !important;
+        width: 60% !important;
+    }
+    #languagesContainer {
+        width: 60% !important;
     }
     #programmingLangContainer {
         width: 60% !important;
