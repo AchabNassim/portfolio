@@ -30,6 +30,10 @@
     color: rgba(248, 249, 255, 0.90);
 }
 
+#navbarList li:hover {
+    transform: translateY(-0.1rem);
+}
+
 .selectedNav {
     /* color: #59B9B4 !important; */
     text-decoration: underline !important;
