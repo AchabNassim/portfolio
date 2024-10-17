@@ -4,6 +4,7 @@ import Nav from './navbarComponent/Nav.jsx';
 import HeroSection from './heroSectionContent/HeroSection.jsx';
 import SkillsSection from './skillsSection/SkillsSection.jsx';
 import ProjectSection from './projectsSection/ProjectSection.jsx'
+import AboutSection from './aboutSection/aboutSection.jsx';
 
 const minimumWidth = 1000;
 const maxWidth = 1800;
@@ -36,6 +37,7 @@ function Container() {
     <div id='appContainer'>
       <Nav section={selectedSection} setSection={setSelectedSection} />
         {section}
+        {/* <AboutSection /> */}
     </div>
   )
 }

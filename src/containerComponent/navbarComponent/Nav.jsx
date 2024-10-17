@@ -24,7 +24,7 @@ const Nav = ({section, setSection}) => {
                         <a href={window.innerWidth < minimumWidth || window.innerWidth > maxWidth ? "#skillsSectionContainer" : "#"} className={section === "skillsSection" ? "selectedNav" : "unselectedSkillsNav"}>Skills</a>
                     </li>
                     <li onClick={() => handleOnClick("projectsSection")} >
-                        <a href={window.innerWidth < minimumWidth || window.innerWidth > maxWidth ? "#projectsSectionContainer" : "#"} className={section === "projectsSection" ? "selectedNav" : "unselectedProjectsNav"}>Projects</a>
+                        <a href={window.innerWidth < minimumWidth || window.innerWidth > maxWidth ? "#projectSectionContainer" : "#"} className={section === "projectsSection" ? "selectedNav" : "unselectedProjectsNav"}>Projects</a>
                     </li>
                 </ul>
             </div>

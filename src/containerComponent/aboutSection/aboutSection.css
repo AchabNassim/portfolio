@@ -1,0 +1,50 @@
+#aboutSectionContainer {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+    color: #f8f9ff;
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+#aboutContainer {
+    width: 100%;
+}
+
+#educationContainer {
+    width: 50%;
+}
+
+#certificatesContainer {
+    width: 50%;
+}
+
+.smallHeader {
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 0.075rem;
+    color: #59B9B4;
+    margin-top: 1.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+#aboutContent {
+    margin: 1rem 0;
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.aboutSvg {
+    height: 1.65rem;
+    width: 1.65rem;
+}
+
+.educationLi {
+    text-decoration: none;
+    list-style-type: none;
+}
