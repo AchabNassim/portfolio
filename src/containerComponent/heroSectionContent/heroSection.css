@@ -26,18 +26,18 @@
 }
 
 #myName {
-    font-weight: 600;
+    font-weight: 700;
     /* font-style: oblique; */
     letter-spacing: 0.025rem;
     color: rgb(248, 249, 255);
 }
 
 
-#cityName, .technologyName {
+.blueHighlight , .technologyName {
     color: #488DFF;
 }
 
-#countryName {
+.greenHighlight {
     color: #59B9B4;
 }
 

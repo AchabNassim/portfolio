@@ -7,8 +7,8 @@
     letter-spacing: 0.075rem;
     color: #f8f9ff;
 
-    /* animation: appear 1s ease-in-out;
-    transition: ease-in-out 1s appear; */
+    animation: appear 1s ease-in-out;
+    transition: ease-in-out 1s appear;
     display: flex;
     margin-bottom: 0.5rem;
     
@@ -20,7 +20,7 @@
 
 .paragHeader {
     width: 60%;
-    margin-top: 1.8rem;
+    margin-top: 1.4rem;
     margin-bottom: 0.4rem;
     color: #59B9B4;
 }

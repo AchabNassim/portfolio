@@ -34,16 +34,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 0.8rem;
+    padding-left: 0.9rem;
 }
 
 #projectDescription {
-    color: rgba(248, 249, 255, 0.8);
+    color: rgba(248, 249, 255, 0.95);
 
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
     width: 90%;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
     margin-bottom: 1rem;
 }
 
@@ -55,15 +55,15 @@
 .technologiesLi {
     list-style: none;
 
-    margin-right: 0.6rem;
-    font-weight: 500;
+    margin-right: 0.5rem;
+    font-weight: 600;
     font-size: 1rem;
     color: #59B9B4;
 }
 
 #projectShowcaseContainer {
     /* height: 100%; */
-    width: 25%;
+    width: 30%;
     box-sizing: border-box;
 }
 
