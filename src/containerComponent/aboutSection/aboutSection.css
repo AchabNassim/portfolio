@@ -1,50 +1,41 @@
 #aboutSectionContainer {
     font-size: 1.3rem;
-    font-weight: bold;
-    letter-spacing: 0.075rem;
-    color: #f8f9ff;
+    /* font-weight: bold; */
+    letter-spacing: 0.04rem;
+    color: rgba(250, 251, 255, 0.9);
 
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 0.5rem;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* margin-bottom: 0.5rem; */
 }
 
-#aboutContainer {
-    width: 100%;
-}
-
-#educationContainer {
-    width: 50%;
-}
-
-#certificatesContainer {
-    width: 50%;
-}
-
-.smallHeader {
+.paragHeader {
     font-size: 1.3rem;
     font-weight: bold;
-    letter-spacing: 0.075rem;
-    color: #59B9B4;
-    margin-top: 1.8rem;
-    display: flex;
-    align-items: center;
-    gap: 0.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 0.4rem;
+    color: #488DFF;
 }
 
-#aboutContent {
-    margin: 1rem 0;
-    width: 80%;
-    font-size: 1.1rem;
-    font-weight: 400;
+.paragAbout {
+    font-size: 1.2rem;
+    background: rgba(20, 28, 52, 0.35);
+    border-radius: 16px;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: rgba(89, 185, 180, 0.10) 1px 1px 4px;
+    box-shadow: rgba(6, 24, 44, 0.2) 0px 0px 0px 2px, rgba(6, 24, 44, 0.4) 0px 4px 6px -1px, rgba(255, 255, 255, 0.05) 0px 1px 0px inset;
+    border-radius: 4px;
+    padding: 1rem;
 }
 
-.aboutSvg {
-    height: 1.65rem;
-    width: 1.65rem;
-}
-
-.educationLi {
+.aboutLink {
     text-decoration: none;
-    list-style-type: none;
+    outline: none;
+    color: #f8f9ff;
+    font-weight: 700;
+    color: #59B9B4;
+    text-decoration: underline;
+    text-decoration-color: #59B9B4;
+    text-decoration-thickness: 0.1rem;
 }
