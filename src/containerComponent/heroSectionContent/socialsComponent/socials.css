@@ -14,7 +14,11 @@
     fill: #F8F9FF;
 }
 
-#linkedinSvg:hover path, #githubSvg:hover path, #emailSvg:hover path, #aboutSvg:hover path {
+#linkedinSvg:hover path, #githubSvg:hover path, #emailSvg:hover path {
     /* fill: #F8F9FF; */
     fill: rgba(246, 248, 255, 0.70);
+}
+
+#aboutSvg:hover path {
+    fill: #488DFF;
 }
