@@ -17,7 +17,7 @@
     display: none;
 }
 
-#heroSectionContainer , #projectSectionContainer , #skillsSectionContainer, #aboutSectionContainer {
+#heroSectionContainer , #projectSectionContainer , #skillsSectionContainer {
     width: 80%;
     margin: 4rem auto;
 }
@@ -71,6 +71,6 @@
     }
 
     #projectSectionContainer , #skillsSectionContainer {
-        margin-top: 7rem;
+        margin-top: 4rem;
     }
 }
