@@ -36,10 +36,13 @@
 
 .blueHighlight , .technologyName {
     color: #488DFF;
+    font-weight: 600;
 }
 
 .greenHighlight {
     color: #59B9B4;
+    font-weight: 600;
+
 }
 
 #moreSpan {

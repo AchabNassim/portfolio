@@ -4,8 +4,8 @@
     font-weight: 500;
     font-size: 1.4rem;
     /* line-height: 2.1rem; */
-    transition: 1s ease-in-out;
-    animation: 1s ease-in-out fadeIn;
+    transition: 0.6s ease-in-out;
+    animation: 0.6s ease-in-out fadeIn;
 }
 
 .aboutLink {
@@ -27,8 +27,8 @@
 @keyframes fadeIn {
     from {
         opacity: 0;
-        background-color: rgba(255, 255, 255, 0.2);
-        transform: translateX(30px);
+        color: rgba(255, 255, 255, 0.4);
+        transform: translateX(20px);
     }
     to {
         opacity: 1;
