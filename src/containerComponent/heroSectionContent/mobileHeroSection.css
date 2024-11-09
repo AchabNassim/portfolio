@@ -1,8 +1,9 @@
 @media only screen and (max-width: 1000px) {
     #introductiontext, .paragAbout {
         margin-top: 0.4rem;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         line-height: 1.75rem;
+        animation: none;
     }
     #profileImageContainer {
         margin: 0 auto;

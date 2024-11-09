@@ -3,9 +3,9 @@ import './projectComponent.css'
 import './mobileProjectComponent.css'
 import './monitorProjectComponent.css'
 import ProjectName from "./projectNameComponent/ProjectNameComponent.jsx";
-import VideoComponent from "./videoComponent/VideoComponent.jsx";
+import VideoComponent from "./videoComponent/MediaComponent.jsx";
 
-const ProjectComponent = ({name, projectSource, technologies, description, videoSource}) => {
+const ProjectComponent = ({name, projectSource, technologies, description, videoSource, poster}) => {
     return (
         <div className="projectContainer">
             <div id="projectInfoContainer">
@@ -23,7 +23,7 @@ const ProjectComponent = ({name, projectSource, technologies, description, video
             </div>
                     
             <div id="projectShowcaseContainer">
-                <VideoComponent videoSource={videoSource} />
+                <VideoComponent videoSource={videoSource} poster={poster} />
             </div>
         </div>
     )
