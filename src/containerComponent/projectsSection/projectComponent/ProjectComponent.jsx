@@ -3,7 +3,8 @@ import './projectComponent.css'
 import './mobileProjectComponent.css'
 import './monitorProjectComponent.css'
 import ProjectName from "./projectNameComponent/ProjectNameComponent.jsx";
-import VideoComponent from "./videoComponent/MediaComponent.jsx";
+// import VideoComponent from "./videoComponent/MediaComponent.jsx";
+import MediaComponent from "./videoComponent/MediaComponent.jsx";
 
 const ProjectComponent = ({name, projectSource, technologies, description, videoSource, poster}) => {
     return (
@@ -23,7 +24,7 @@ const ProjectComponent = ({name, projectSource, technologies, description, video
             </div>
                     
             <div id="projectShowcaseContainer">
-                <VideoComponent videoSource={videoSource} poster={poster} />
+                <MediaComponent videoSource={videoSource} poster={poster} />
             </div>
         </div>
     )
