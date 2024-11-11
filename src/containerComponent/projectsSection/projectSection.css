@@ -5,8 +5,8 @@
     font-size: 1.3rem;
     color: #f8f9ff;
 
-    animation: appear 1s ease-in-out;
-    transition: ease-in-out 1s appear;
+    animation: appear 0.6s ease-in-out;
+    transition: ease-in-out 0.6s appear;
     margin-bottom: 0.5rem;
 }
 

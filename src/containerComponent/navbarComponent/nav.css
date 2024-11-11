@@ -31,7 +31,7 @@
 }
 
 #navbarList li:hover {
-    transform: translateY(-0.1rem);
+    transform: translateY(-0.075rem);
 }
 
 .selectedNav {
