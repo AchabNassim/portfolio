@@ -3,7 +3,7 @@ import React from "react";
 const Introductiontext = () => {
     return (
         <p id="introductiontext">
-            Software developer based in <span className="blueHighlight"> Tangier</span> <span className="greenHighlight"> Morocco</span>. If you are looking for a passionate <span className="blueHighlight">backend developer </span> with solid understanding of frontend technologies then look no further.
+            Software developer from <span className="blueHighlight"> Tangier</span> <span className="greenHighlight"> Morocco</span>. If you're looking for a developer skilled in both <span className="greenHighlight">backend</span> and <span className="greenHighlight">frontend</span>, but with a real <span className="blueHighlight">passion</span> for <span className="blueHighlight">backend</span> work, let’s connect!
         </p>
     )
 }
