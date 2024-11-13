@@ -25,23 +25,23 @@ const ProjectSection = () => {
         poster={"showcase/screenshots/notes.png"}
         />
 
-        {/* <ProjectComponent
-          name={"Ecommerce backend api"} 
-          projectSource={"https://github.com/AchabNassim/NodeAuth"}
+        <ProjectComponent
+          name={"WeatherWear"} 
+          projectSource={"https://github.com/AchabNassim/api.git"}
           technologies={["Nodejs", "ExpressJs", "Express-session", "Postgresql"]} 
-          description={"Complete eCommerce backend API with payment integration using Stripe. Users can log in as guests, clients, or admins, each with secure routes. The API allows users to view products, save items to their carts, and proceed to checkout. Product routes support fetching specific items and browsing by category. This project allowed me to level up my backend skills in database design, user roles, and more."}
+          description={"A dynamic recommendation API leveraging weather data to provide users with personalized suggestions based on city-specific conditions like temperature and rainfall. Users can securely generate and manage API keys, access recommendations, and track their usage history. This project strengthened my backend skills in secure API key handling, role-based access control, and efficient database management."}
           videoSource={null}
           poster={"showcase/screenshots/api.png"}
-        /> */}
+        />
 
-        <ProjectComponent
+        {/* <ProjectComponent
           name={"ProTyper"} 
           projectSource={"https://github.com/AchabNassim/ProTyper"}
           technologies={["html, css, javascript"]} 
           description={"A typing speed website built with HTML, CSS, and JavaScript that calculates WPM and accuracy as users type. It features an interactive SVG keyboard that highlights keys pressed, with real-time animations enhancing the typing experience. This project strengthened my JavaScript skills and my understanding of DOM manipulation and CSS animations."}
           videoSource={"showcase/videos/proTyper.mp4"}
           poster={"showcase/screenshots/keyboard.png"}
-        />
+        /> */}
 
         <ProjectComponent
           name={"Webserver"} 
