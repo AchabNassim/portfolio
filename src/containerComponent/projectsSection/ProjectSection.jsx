@@ -29,7 +29,7 @@ const ProjectSection = () => {
           name={"WeatherWear"} 
           projectSource={"https://github.com/AchabNassim/api.git"}
           technologies={["Nodejs", "ExpressJs", "Express-session", "Postgresql"]} 
-          description={"A dynamic recommendation API leveraging weather data to provide users with personalized suggestions based on city-specific conditions like temperature and rainfall. Users can securely generate and manage API keys, access recommendations, and track their usage history. This project strengthened my backend skills in secure API key handling, role-based access control, and efficient database management."}
+          description={"A dynamic recommendation API which uses the current weather (temperature, condition) of their city to make personalized suggestions to the user. Users create and manage API keys securely, retrieve recommendations, and review their usage history. This project further developed my backend skills with secure handling of API keys, role-based access control, and effective database management."}
           videoSource={null}
           poster={"showcase/screenshots/api.png"}
         />

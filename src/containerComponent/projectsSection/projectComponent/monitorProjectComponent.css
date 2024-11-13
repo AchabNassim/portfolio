@@ -33,6 +33,6 @@
         margin: 0.8rem auto;
     }
     .projectVideo {
-        object-fit: fill;
+        object-fit: cover;
     }
 }
