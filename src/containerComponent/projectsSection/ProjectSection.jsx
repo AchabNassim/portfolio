@@ -20,7 +20,7 @@ const ProjectSection = () => {
         name={"Notes App"} 
         projectSource={"https://github.com/AchabNassim/productivityApp"}
         technologies={["Nodejs", "ExpressJs", "React", "Mongodb"]} 
-        description={"Note-taking app built with React that allows users to authenticate, store, and categorize their notes. Users can archive, pin, and filter notes for easy management. The backend is powered by Node.js and MongoDB. This project helped me enhance my React skills while also deepening my understanding of NoSQL databases."}
+        description={"A note-taking app allowing users to authenticate, organize, and manage notes with features like archiving, pinning, and filtering. Built with React for the frontend and Node.js/MongoDB for the backend."}
         videoSource={"showcase/videos/notes.mp4"}
         poster={"showcase/screenshots/notes.png"}
         />
@@ -29,7 +29,7 @@ const ProjectSection = () => {
           name={"WeatherWear"} 
           projectSource={"https://github.com/AchabNassim/api.git"}
           technologies={["Nodejs", "ExpressJs", "Express-session", "Postgresql"]} 
-          description={"A dynamic recommendation API leveraging weather data to provide users with personalized suggestions based on city-specific conditions like temperature and rainfall. Users can securely generate and manage API keys, access recommendations, and track their usage history. This project strengthened my backend skills in secure API key handling, role-based access control, and efficient database management."}
+          description={"A weather-based recommendation API providing personalized outfit suggestions. Includes secure API key generation and management, with role-based access and efficient database handling."}
           videoSource={null}
           poster={"showcase/screenshots/api.png"}
         />
@@ -47,7 +47,7 @@ const ProjectSection = () => {
           name={"Webserver"} 
           projectSource={"https://github.com/mouradden/web-server.git"}
           technologies={["C++"]} 
-          description={"HTTP server in C++ 98 using object-oriented programming principles. As part of a team of three, my role involved deepening my understanding of the HTTP protocol and its functionalities, learning about socket programming for network communication, parsing HTTP requests, and constructing appropriate responses. This project gave me a solid foundation for server-side development and the http protocol in general"}
+          description={"An HTTP server built with C++ 98, focusing on the HTTP protocol, socket programming, and parsing requests/responses. This project solidified my understanding of server-side development."}
           videoSource={null}
           poster={"showcase/screenshots/webserver.png"}
          />
