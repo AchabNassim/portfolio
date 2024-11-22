@@ -8,7 +8,7 @@ const Languages = () => {
             <SkillContainer skillName={"English"} />
             <SkillContainer skillName={"French"} />
             <SkillContainer skillName={"Arabic"} />
-            <SkillContainer skillName={"Spanish"} />
+            {/* <SkillContainer skillName={"Spanish"} /> */}
         </div>
     )
 }

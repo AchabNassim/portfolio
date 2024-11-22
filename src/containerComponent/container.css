@@ -11,6 +11,8 @@
     backdrop-filter: blur( 15px );
     -webkit-backdrop-filter: blur( 40px );
     border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    animation: 0.4s appear ease-in-out;
 }
 
 .container::-webkit-scrollbar { 
@@ -72,5 +74,14 @@
 
     #projectSectionContainer , #skillsSectionContainer {
         margin-top: 4rem;
+    }
+}
+
+@keyframes appear {
+    from {
+        opacity: 0.8;
+    }
+    to {
+        opacity: 1;
     }
 }

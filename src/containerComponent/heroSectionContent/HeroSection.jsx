@@ -11,7 +11,7 @@ import './monitorHeroSection.css';
 
 const HeroSection = () => {
     const [selectedParag, setSelectedParag] = useState("intro");
-    console.log(selectedParag)
+    // console.log(selectedParag)
     return (
         <div id="heroSectionContainer">
             <ProfileImage />
