@@ -12,8 +12,8 @@ const ProjectSection = () => {
         projectSource={"https://github.com/AchabNassim/Breakout_game"}
         technologies={["Php", "Javascript", "Html", "Css", "Mysql"]} 
         description={"Breakout game clone using JavaScript and PHP. Players can easily sign up and log in to save their score and have access to the leaderboard where players can check their scores against friends and other gamers. This project allowed me to explore game development using javascript canvas, backend integration and user authentication using php and sessions"}
-        videoSource={"showcase/videos/notes.mp4"}
-        poster={"showcase/screenshots/notes.png"}
+        videoSource={null}
+        poster={"showcase/screenshots/game.png"}
         />
 
         <ProjectComponent
