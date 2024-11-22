@@ -2,7 +2,7 @@ import React, {useRef, useState, useEffect} from "react";
 import './mediaComponent.css'
 
 const MediaComponent = ({videoSource, poster}) => {
-    console.log(videoSource);
+    // console.log(videoSource);
     return ( videoSource !== null ?
             <video className="mediaContainer" muted controls preload="metadata" poster={poster}>
                 <source src={videoSource} type="video/mp4"  />
