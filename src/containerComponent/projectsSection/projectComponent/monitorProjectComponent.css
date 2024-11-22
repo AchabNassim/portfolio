@@ -29,10 +29,10 @@
 
     #projectShowcaseContainer {
         height: 24vh;
-        width: 80%;
+        width: 40%;
         margin: 0.8rem auto;
     }
     .projectVideo {
-        object-fit: fill;
+        object-fit: cover;
     }
 }
