@@ -3,14 +3,22 @@ import './container.css'
 import Nav from './navbarComponent/Nav.jsx';
 import HeroSection from './heroSectionContent/HeroSection.jsx';
 import SkillsSection from './skillsSection/SkillsSection.jsx';
-import ProjectSection from './projectsSection/ProjectSection.jsx'
+import ProjectSection from './projectsSection/ProjectSection.jsx';
+import Spinner from './Spinner.jsx';
 
 const minimumWidth = 1000;
 const maxWidth = 1800;
 
 function Container() {
   const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth && window.innerWidth < maxWidth ? "heroSection" : "all");
+  const [isLoaded, setisLoaded] = useState(false);
   let section;
+
+  useEffect(() => {
+    setTimeout(() => {
+      setisLoaded(true);
+    }, 1000);
+  }, []);
 
   switch (selectedSection) {
     case "heroSection" : {
@@ -32,11 +40,12 @@ function Container() {
     default : section = <HeroSection />
   }
 
-  return (
+  return (isLoaded ?
     <div id='appContainer'>
       <Nav section={selectedSection} setSection={setSelectedSection} />
         {section}
-    </div>
+    </div> :
+    <Spinner />
   )
 }
 
