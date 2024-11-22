@@ -47,7 +47,7 @@ const ProjectSection = () => {
           name={"Webserver"} 
           projectSource={"https://github.com/mouradden/web-server.git"}
           technologies={["C++"]} 
-          description={"An HTTP server built with C++ 98, focusing on the HTTP protocol, socket programming, and parsing requests/responses. This project solidified my understanding of server-side development."}
+          description={"An HTTP server built with C++ 98, focusing on the HTTP protocol, socket programming, and parsing requests/responses. This project solidified my understanding of server-side development while also improving my object oriented programming skills."}
           videoSource={null}
           poster={"showcase/screenshots/webserver.png"}
          />
