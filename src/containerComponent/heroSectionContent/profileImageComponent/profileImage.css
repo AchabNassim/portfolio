@@ -14,8 +14,12 @@
     /* box-shadow: #59b9b481 0px 0px 0.25em, #59b9b481 0px 0.25em 1em; */
     /* box-shadow: #59b9b4cf 0px 2px 8px 0px; */
     box-shadow: #59b9b4cf 0px 4px 16px, #59b9b480 0px 4px 4px;
-    transition: 1s ease-in-out;
+    transition: 0.6s ease-in;
     animation: 3s profilePictureFloat ease-in-out infinite;
+}
+
+.hiddenImage {
+    opacity: 0;
 }
 
 @keyframes profilePictureFloat {
