@@ -41,11 +41,9 @@ function Background() {
         height: "100%",
         // background: "radial-gradient(90% 90% at 50% 0%, #000212 50%, #00a1ad 100%)"
       }}>
-        {window.innerWidth > 1200 && <>
           <Canvas style={{ position: "absolute", width: "100%", height: "100%" }}>
           <Stars radius={50} count={6000} factor={3.5} fade speed={2.5} />
           </Canvas>
-        </>}
       </div>
       </motion.section>
     </>

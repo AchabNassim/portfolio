@@ -6,7 +6,7 @@ import Background from './Background.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Background />
+    {window.innerWidth > 1000 && <Background />}
     <App />
   </StrictMode>,
 )

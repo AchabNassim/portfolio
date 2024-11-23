@@ -16,7 +16,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  background-image: radial-gradient(150% 160% at 50% 0%, #000212 50%, #488eff);
+  background-image: radial-gradient(110% 110% at 50% 0%, #000212 50%, #00a1ad 100%);
 
   display: flex;
   flex-direction: column;
