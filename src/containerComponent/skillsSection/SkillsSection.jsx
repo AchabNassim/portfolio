@@ -1,11 +1,11 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import './skillsSection.css';
 import './mobileSkillsSection.css';
 import './monitorSkillsSection.css';
 import Techstack from "./techstackComponent/Techstack.jsx";
 import ProgrammingLangs from "./programmingLanguagesComponent/ProgrammingLangs.jsx"
 import Languages from "./languagesComponent/Languages.jsx";
-import ComputerSvgContainer from "./computerSvgComponent/ComputerSvgContainer.jsx";
+const ComputerSvgContainer = window.innerWidth > 1200 ? lazy(() => import("./computerSvgComponent/ComputerSvgContainer.jsx")) : null;
 
 const SkillsSection = () => {
     return (
@@ -18,7 +18,11 @@ const SkillsSection = () => {
                 <p className="paragHeader">Spoken languages</p>
                 <Languages />
             </div>
-            <ComputerSvgContainer />
+            {ComputerSvgContainer !== null && 
+                <Suspense>
+                    <ComputerSvgContainer />
+                </Suspense>
+            }
         </div>
     )
 }

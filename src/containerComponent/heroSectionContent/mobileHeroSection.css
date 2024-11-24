@@ -12,7 +12,9 @@
     #profileImageContainer , #profilePicture {
         height: 200px;
         width: 200px;
+        animation: none;
     }
+
     #heroSectionContainer {
         animation: none !important;
         transition: none !important;
