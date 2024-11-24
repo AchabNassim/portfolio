@@ -9,6 +9,7 @@
 #computerSvg {
     height: 19rem;
     width: 19rem;
+    transition: 0.6s ease-in;
 }
 
 #computerSvg {
