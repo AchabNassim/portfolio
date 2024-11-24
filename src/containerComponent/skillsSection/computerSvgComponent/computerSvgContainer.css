@@ -3,13 +3,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: 0.6s ease-in;
+    animation: fade 1s ease-out;
+    transition: 0.2s ease-out;
 }
 
 #computerSvg {
     height: 19rem;
     width: 19rem;
-    transition: 0.6s ease-in;
+    animation: fade 1s ease-out;
+    transition: 0.2s ease-out;
 }
 
 #computerSvg {
