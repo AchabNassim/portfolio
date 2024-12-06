@@ -6,11 +6,12 @@ import SkillsSection from './skillsSection/SkillsSection.jsx';
 import ProjectSection from './projectsSection/ProjectSection.jsx';
 import Spinner from './Spinner.jsx';
 
-const minimumWidth = 1000;
-const maxWidth = 1800;
+// const minimumWidth = 1000;
+// const maxWidth = 1800;
 
 function Container() {
-  const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth && window.innerWidth < maxWidth ? "heroSection" : "all");
+  // const [selectedSection, setSelectedSection] = useState(window.innerWidth > minimumWidth && window.innerWidth < maxWidth ? "heroSection" : "all");
+  const [selectedSection, setSelectedSection] = useState("all");
   const [isLoaded, setisLoaded] = useState(false);
   let section;
 
@@ -21,6 +22,10 @@ function Container() {
   }, []);
 
   switch (selectedSection) {
+    case "all" : {
+      section = [<HeroSection key={0} />, <SkillsSection key={1} />, <ProjectSection key={2} />];
+      break ;
+    }
     case "heroSection" : {
       section = <HeroSection />;
       break ;
@@ -31,10 +36,6 @@ function Container() {
     }
     case "projectsSection" : {
       section = <ProjectSection />;
-      break ;
-    }
-    case "all" : {
-      section = [<HeroSection key={0} />, <SkillsSection key={1} />, <ProjectSection key={2} />];
       break ;
     }
     default : section = <HeroSection />

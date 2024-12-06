@@ -24,6 +24,10 @@
     margin: 4rem auto;
 }
 
+#projectSectionContainer , #skillsSectionContainer {
+    margin-top: 3rem;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         min-height: 100%;

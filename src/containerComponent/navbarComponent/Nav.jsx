@@ -1,23 +1,22 @@
 import React from "react";
 import './nav.css'
 
-const minimumWidth = 1000;
-const maxWidth = 1800;
+// const minimumWidth = 1000;
+// const maxWidth = 1800;
 
 const Nav = ({section, setSection}) => {
 
-    const handleOnClick = (section) => {
-        if (window.innerWidth > minimumWidth && window.innerWidth < maxWidth) {
-            console.log("works!");
-            setSection(section);
-        }
-    }
+    // const handleOnClick = (section) => {
+    //     if (window.innerWidth > minimumWidth && window.innerWidth < maxWidth) {
+    //         setSection(section);
+    //     }
+    // }
     
     return (
         <nav>
             <div id="navContainer">
                 <ul id="navbarList">
-                    <li onClick={() => handleOnClick("heroSection")} >
+                    {/* <li onClick={() => handleOnClick("heroSection")} >
                         <a href={window.innerWidth < minimumWidth || window.innerWidth > maxWidth ? "#heroSectionContainer" : "#"} className={section === "heroSection" ? "selectedNav" : "unselectedHeroNav"}>Home</a>
                     </li>
                     <li onClick={() => handleOnClick("skillsSection")} >
@@ -25,6 +24,16 @@ const Nav = ({section, setSection}) => {
                     </li>
                     <li onClick={() => handleOnClick("projectsSection")} >
                         <a href={window.innerWidth < minimumWidth || window.innerWidth > maxWidth ? "#projectSectionContainer" : "#"} className={section === "projectsSection" ? "selectedNav" : "unselectedProjectsNav"}>Projects</a>
+                    </li> */}
+
+                    <li>
+                        <a href={"#heroSectionContainer"}>Home</a>
+                    </li>
+                    <li >
+                        <a href={"#skillsSectionContainer"}>Skills</a>
+                    </li>
+                    <li >
+                        <a href={"#projectSectionContainer"}>Projects</a>
                     </li>
                 </ul>
             </div>
