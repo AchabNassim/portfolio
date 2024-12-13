@@ -15,7 +15,7 @@
     animation: 0.4s appear ease-in-out;
 }
 
-.container::-webkit-scrollbar { 
+#appContainer::-webkit-scrollbar { 
     display: none;
 }
 

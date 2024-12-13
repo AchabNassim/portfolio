@@ -8,10 +8,10 @@ const ProjectSection = () => {
         <p id='projectHeader'>Projects</p>
         
         <ProjectComponent
-        name={"Breakout"} 
-        projectSource={"https://github.com/AchabNassim/Breakout_game"}
-        technologies={["Php", "Javascript", "Html", "Css", "Mysql"]} 
-        description={"Breakout game clone using JavaScript and PHP. Players can easily sign up and log in to save their score and have access to the leaderboard where players can check their scores against friends and other gamers."}
+        name={"Ft_transcendence"} 
+        projectSource={"https://github.com/AchabNassim/ft_transcandence"}
+        technologies={["Docker", "Javascript", "Django", "Postgresql", "Redis", "Web sockets"]} 
+        description={"An online single page multiplayer pong game where players can choose various different game modes such as online, tournament and AI. It also includes a secure authentication system, a chat app and much more. The app was built follwing the microservice architecture for better scalability."}
         videoSource={null}
         poster={"showcase/screenshots/game.webp"}
         />
@@ -19,7 +19,7 @@ const ProjectSection = () => {
         <ProjectComponent
         name={"Notes App"} 
         projectSource={"https://github.com/AchabNassim/productivityApp"}
-        technologies={["Nodejs", "ExpressJs", "React", "Mongodb"]} 
+        technologies={["Docker", "Nodejs", "ExpressJs", "React", "Mongodb"]} 
         description={"A note-taking app allowing users to authenticate, organize, and manage notes with features like archiving, pinning, and filtering. Built with React for the frontend and Node.js/MongoDB for the backend."}
         videoSource={"showcase/videos/notes.mp4"}
         poster={"showcase/screenshots/notes.webp"}
