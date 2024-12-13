@@ -23,14 +23,3 @@
     transform: translateY(-0.4rem); */
     /* text-decoration-color: #488DFF; */
 /* } */
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        color: rgba(255, 255, 255, 0.4);
-        transform: translateX(20px);
-    }
-    to {
-        opacity: 1;
-    }
-}
